@@ -1,0 +1,13 @@
+1. Why lists are called mutable?
+
+Mutable means which can be changed, so list in Python are mutable as you can append, delete, pop 
+or do any operation on lists. Using the indexing operator (square brackets) on the left side of an 
+assignment, we can update one of the list items.
+
+2. What are the advantages of using list compared to array in C?
+
+Advantages of list compared to array in C are:
+> We can store different data types in list but not in array in C 
+> Array in C, need to be defined size of the array before adding any elements but in Python
+    list does not require any fixed memory size.
+> List can be extended and shortened but Array in C is fixed it neither be shortened nor extended.
