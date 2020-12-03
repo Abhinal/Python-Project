@@ -1,0 +1,16 @@
+A. Round Brackets are creating tuple here and del function removing all data of tuple.
+B. While adding two tuples, we will get new tuple having both tuple's elements.
+C. While multiplying by any integer(n) to tuple it will give n times of that tuple in one new tuple.
+D. Slicing is working in tuple also.
+E. We can typecast the tuple values to list values.
+F. Here we can use max, min and len function to see maximum value, 
+    minimum value and length of the stored data in given tuple.
+
+1. Reverse Function is use to reversing the elements stored in given variable 
+    but before printing we have to create any suitable datatype to store reversed data.
+2. Here (10,20) is one of the element of list 'num' and isinstance function is checking 
+    whether the element in list is tuple or not. If element is tuple it will break the loop and return the 
+    value of ctr which is just equal to the index of first tuple.
+3. Here tuple.index function is use to search the element in tuple. It parameters is ("key", first_index, last_index).
+4. Slicing is working properly in tuple datatype.
+
