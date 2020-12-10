@@ -1,3 +1,3 @@
 1. What are the advantages of dictionary over list?
 
-In Dictionary, we can store data in pair. It is easily to sort key.
+In Dictionary, We can store data in pair i.e. key and value. It is easy to sort key.
