@@ -1,0 +1,36 @@
+1. What is pip?
+Answer:
+    PIP is a package manager for Python packages, or modules. Here, After installation of PIP you can directly add, remove or
+    update any package or module by a simple command line. It is very easy to use PIP.
+
+
+2. How do you check whether it is installed or not?
+Answer:
+    First we have to install python and set directory path, After that we have to open terminal and write a command line 
+    "pip version" or "pip3 version". If We have pip installed in our system, it will print something like 
+    "pip 20.0.2 from /usr/lib/python3/dist-packages/pip" otherwise it will print "Command 'pip' not found".
+
+    
+3. How do you check which packages of Python are installed?
+Answer:
+    For checking total list of Python packages, you just have to write a command line "pip list" or "pip3 list". 
+    It will print all the list of packages with version name installed in your system as:
+
+    Package                  Version             
+    ------------------------ --------------------
+    alembic                  1.1.0.dev0          
+    appdirs                  1.4.4               
+    apturl                   0.5.2               
+    asgiref                  3.2.10              
+    astroid                  2.4.1               
+    Babel                    2.6.0               
+    bcrypt                   3.1.7               
+    blinker                  1.4    
+
+    And for individual package, you have to write a command line like "{package-name} --version".
+    For example:
+        $ virtualenv --version
+        virtualenv 20.0.31 from /home/abhinav/.local/lib/python3.8/site-packages/virtualenv/__init__.py
+
+        $ camelcase --version
+        camelcase: command not found
