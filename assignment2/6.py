@@ -7,14 +7,14 @@
 
 try:
 
-a = int(input('Enter number: '))
+    a = int(input('Enter number: '))
 
-if (a==0):
-    print ('%d is neither odd nor even' %(a))
-elif a%2==0:
-    print ('%d is even' %(a))
-else:
-    print('%d is odd' %(a))
+    if (a==0):
+        print ('%d is neither odd nor even' %(a))
+    elif a%2==0:
+        print ('%d is even' %(a))
+    else:
+        print('%d is odd' %(a))
     
  except:
     print('Error, please enter numeric input')
