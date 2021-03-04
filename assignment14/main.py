@@ -259,7 +259,7 @@ T.insert(END, '')
 
 mainloop()
 
-
+hintBox.destroy()
 
 
 
